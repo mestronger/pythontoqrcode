@@ -1,5 +1,5 @@
-import qrcode
+import QRcode
 
-img = qrcode.make('https://wa.me/6281378893790')
+img = QRcode.make('https://wa.me/6281378893790')
 img.save('myQRcod.png')
 img.show()
